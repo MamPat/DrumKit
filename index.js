@@ -1,9 +1,9 @@
 var numberOfButtons = document.querySelectorAll(".drum").length;
 
  
-for (var i=0; i<numberOfButtons; i++){
+for (var j=0; j<numberOfButtons; j++){
 
-    document.querySelectorAll(".drum")[i].addEventListener("click",function(){                   
+    document.querySelectorAll(".drum")[j].addEventListener("click",function(){                   
            var buttonInnerHTML = this.innerHTML;           
            makeSound(buttonInnerHTML);   
              buttonAnimation(buttonInnerHTML);     
@@ -18,7 +18,7 @@ for (var i=0; i<numberOfButtons; i++){
 
             function makeSound(key){
                 switch (key) {
-                    case "w":
+                    case "f":
                          var crash = new Audio('sounds/crash.mp3');                 
                          crash.play();               
                       break;
