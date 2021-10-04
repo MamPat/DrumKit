@@ -10,10 +10,9 @@ Thanks😊😊
 ## How to contribute
 
 - Fork this repository DrumKit
-- Clone your repo
-- Add your name in readme.md to mark it as your contribution
+- Clone your repo 
 - Add necessary files and code,dont spam and do basic typo changes.
-- Commit the changes
+- Commit the changes in your forked repo
 - make and send a Pull request.
 
 ## Read more at
